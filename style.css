@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(bg/logo.jpg);
+    background-size: cover;
+}
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding: 20px;
+    width: 100%;
+    overflow: hidden;
+    fill:#ffff;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.company-logo a{
+    text-decoration: none;
+   color: #e50914;
+   font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    padding: 20px;
+    font-size: 4rem;
+}
+.form{
+    width: 650px;
+    height: auto;
+    padding: 50px;
+    color: #b3b3b3;
+    box-sizing: content-box;
+    margin-top: 5rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(17, 17, 17, 0.8);
+}
+.Sign{
+    display: flex;
+    color: #ffff;
+    align-items: start;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+.email,.pass{
+    padding-inline: 18px;
+    FILL:#333333;
+    font-size: 26px;
+    line-height: 50px;
+    border-radius:5px; 
+    text-align: start;
+    width: 550px;
+    height: 70px;
+    margin-top: 20px;
+}
+.check,.need{
+    margin-top: 2rem;
+    font-size: 30px;
+}
+.btn{
+    color: #ffff;
+    font-size: 30px;
+    background-color:#e50914;
+    width: 550px;
+    height: 70px;
+    margin-top: 2rem;
+    BOX-SHADOW:rgba(0, 0, 0, 0.55) 0px 1px 0px 0px;
+    BORDER-RADIUS:4px;
+}
+input[type="checkbox"] {
+    width: 20px; 
+    height: 20px; 
+    fill:#333333;
+}
+.out{
+    display: flex;
+    margin-top: 16px;
+    font-size: 16px;
+    gap: 120px;  
+}
+.up{
+    font-size: 30px;
+    display: flex;
+    align-items: start;
+    gap: 6rem;
+    margin-top: 4rem;
+}
+.up a{
+    text-decoration: none;
+    color: #ffff;
+}
+.cap{
+    margin-top: 2rem;
+    font-size: 24px;
+} 
+
+footer {
+    margin-top: 4rem;
+    color: #ffff;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #b3b3b3;
+    padding: 10px 0;
+  }
+  
+  .footer-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    margin-left: 4rem;
+    margin-top: 1rem;
+  }
+  
+  .footer-element {
+    flex: 1;
+    padding: 8px;
+    text-align: center;
+    text-align: start;
+    font-size: 25px;
+  }
+
+  .que{
+    font-size: 30px;
+    margin-left: 8rem;
+    color: #b3b3b3;
+  }
+  #lang{
+    display: block;
+    padding-left: 3px;
+    width: 150px;
+    height: 50px;
+    font-size: 1.5rem;
+   color: #b3b3b3;
+   background-color: #0000;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+   margin-left: 4rem;
+  }
+  
+  /*media quires*/
+  @media (max-width: 800px) {
+    body{
+        padding: 1rem;
+        background-image: none; 
+        background-color: black;
+    }
+    .company-logo a{
+        margin: 10px;
+        font-size: 2rem;
+    }
+    .form{
+        width: auto;
+        margin: 20px;
+        padding: 0px;
+    }
+    .Sign{
+        margin: 10px;
+        font-size: 35px;
+    }
+    .email,.pass{
+        background-color: #e8f0fe
+    }
+    .email,.pass,.btn{
+        width:100% ;
+        height: 60px;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+    .check,.need{
+        margin-top: 1rem;
+        font-size: 25px;
+    }
+    .out{
+        align-items: start;
+        justify-content: space-between;
+    }
+    .cap{
+        margin-top: 20px;
+        margin-left: auto;
+    }
+    .up a{
+        font-size: 25px;
+    }
+    .up{
+        gap:0px;
+        margin-top: 2rem;
+        align-items: start;
+    }
+    .up,.cap,.que,.footer-element{
+        font-size: 20px;
+    }
+    .footer-element,.cap{
+        padding: 0%;
+    }
+    .up{
+        margin-top: 5rem;   
+        }
+        .que{
+            margin-left: 30px;
+        }
+    }
+
